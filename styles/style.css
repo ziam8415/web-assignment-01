@@ -122,3 +122,42 @@
     color: rgba(0,0,0,0.5);
     font-size: 18px;
 }
+
+
+/* Users’ Feedback Section */
+
+.feedback-section{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.feedback-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.feedback{
+    padding: 20px 40px;
+    text-align: left;
+}
+.feedback h3{
+    color: #252432;
+    font-size: 20px;
+}
+.feedback p{
+    font-size: 14px;
+    padding: 10px 0 ;
+    color: rgba(0,0,0,0.5);
+}
+.reviewer-nam{
+    color:rgba(0,0,0,0.5) ;
+}
+.reviewer-nam p{
+    padding: 0%;
+}
+
+.reviewer-container{
+    display: flex;
+    gap: 20px;
+}
