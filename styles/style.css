@@ -239,7 +239,9 @@ input{
     padding: 0 30px;
     color: rgba(0,0,0,0.5);
     margin-bottom: 30px;
+    border-radius: 5px;
     border: none;
+
 }
 textarea{
    padding: 20px 30px;
@@ -270,7 +272,7 @@ footer li{
     list-style: none;
     display: inline;
     margin: 20px 30px;
-   
+    
 }
 
 footer li a{
@@ -281,3 +283,4 @@ footer li a{
 .links{
     margin: 25px 0;
 }
+
