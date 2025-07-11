@@ -52,7 +52,8 @@
 .navbar{
     height: 50px;
     width: 85%;
-    margin: 30px auto;
+    margin: 0 auto;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
