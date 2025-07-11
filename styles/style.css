@@ -49,3 +49,18 @@
     margin-bottom: 50px;
 }
 
+/* sheared style */
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+.title{
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
+}
