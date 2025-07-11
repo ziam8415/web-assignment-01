@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* font */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -16,6 +16,30 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* sheared style */
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: rgba(231, 170, 57, 0.686);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title{
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
 
 /* hero section */
 
@@ -56,22 +80,6 @@
     margin-bottom: 50px;
 }
 
-/* sheared style */
-.btn-primary{
-    color: #FFFFFF;
-    font-weight: 600;
-    background-color: #4E47FF;
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-}
-
-.title{
-    color: #252432;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 
 /* action section */
 .actions{
@@ -105,6 +113,9 @@
     width: 65%;
     margin: 100px auto;
     text-align: center;
+    background-color: rgba(78,71,255,0.1);
+    border-radius: 15px;
+    
 }
 
 .users-container{
@@ -133,12 +144,15 @@
 }
 .feedback-container{
     display: flex;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     padding-top: 30px;
 }
 .feedback{
-    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #F2EDED;
+    padding: 20px 20px;
     text-align: left;
 }
 .feedback h3{
