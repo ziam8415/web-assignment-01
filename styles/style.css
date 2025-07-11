@@ -180,3 +180,56 @@
     margin: 30px 0;
     border-radius: 15px;
 }
+
+
+/* Let’s Get In Touch Section */
+
+.get-in-touch{
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #FFFFFF 50%;
+    
+}
+.get-title{
+    width: 45%;
+    font-size: 85px;
+    font-weight: bold;
+}
+.set-form{
+     width: 45%;
+     background-color: #D6DDED;
+}
+label {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin:5px 0;
+}
+legend{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin:5px 0;
+}
+input{
+    height: 60px;
+    width: 80%;
+    display: block;
+    padding: 0 30px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    border: none;
+}
+textarea{
+   padding: 20px 30px;
+   color: rgba(0,0,0,0.5);
+   border: none;
+}
+.btn-get{
+    width: 90%;
+     margin:10px 0;
+     
+}
