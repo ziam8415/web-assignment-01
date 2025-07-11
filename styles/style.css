@@ -124,7 +124,7 @@
 }
 
 
-/* Users’ Feedback Section */
+/* Users Feedback Section */
 
 .feedback-section{
     width: 85%;
@@ -160,4 +160,23 @@
 .reviewer-container{
     display: flex;
     gap: 20px;
+}
+
+
+/* Ready section  */
+.ready{
+    width: 65%;
+    margin: 100px auto;
+    text-align: center;
+}
+.ready h2{
+    margin-bottom: 15px;
+}
+
+.ready button{
+    margin: 10px 0;
+}
+.ready img{
+    margin: 30px 0;
+    border-radius: 15px;
 }
